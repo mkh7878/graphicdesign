@@ -1,0 +1,82 @@
+
+body {
+    background-color: #FCBB92;
+    text-align: center;
+}
+p {
+    color: black;
+    font-size: 1vw;
+}
+
+h1 {
+    font-size: clamp(40px, 7vw, 90px);
+    color: #6AD2C6;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 3vw;
+    color: #FEECAB;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Make the navbar text white */
+.navbar {
+    background-color: transparent !important; /* Ensure no background color */
+  }
+  
+  .navbar .nav-link {
+    color: white !important; /* Ensure the links are white */
+  }
+  
+  .navbar .navbar-brand {
+    color: white !important; /* Ensure the brand text is white */
+  }
+  
+  /* Optionally, change the color of the links on hover */
+  .navbar .nav-link:hover {
+    color: #6AD2C6 !important; /* Slightly lighter white on hover */
+  }
+  
+
+  #hpbanner {
+    background-image: url('/assets/images/notextbillboard.jpg');
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    min-height: 35vw; /* Set a height or use padding to control size */
+    display: flex; /* Optional: to align content */
+    justify-content: center; /* Optional: horizontal center content */
+    color: #fff; /* Optional: text color for better visibility */
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .img-fluid {
+    transition: opacity 0.5s ease; /* Smooth transition on hover */
+  }
+  
+  .image-container:hover .img-fluid {
+    opacity: 0.2; /* Fades image to 20% opacity on hover */
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Change text color as needed */
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease; /* Smooth transition for text */
+    text-align: center;
+  }
+  
+  .image-container:hover .overlay-text {
+    opacity: 1; /* Shows text on hover */
+  }
+  
