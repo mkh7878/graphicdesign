@@ -8,10 +8,16 @@ p {
     font-size: 17px;
 }
 
+a {
+  /* text-decoration: black; */
+  color: #6AD2C6;
+}
+
 h1 {
     font-size: clamp(40px, 7vw, 90px);
-    color: #6AD2C6;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* color: #6AD2C6; */
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .h1white {
@@ -24,7 +30,7 @@ h1 {
 h2 {
     font-size: 3vw;
     color: #FEECAB;
-    text-shadow: 1.4px 1.4px 3px rgba(0, 0, 0, 0.3);
+    text-shadow: 1.4px 1.4px 3px rgba(0, 0, 0, 0.5);
 }
 
 /* Make the navbar text white */
@@ -51,7 +57,7 @@ h2 {
     background-size: cover; /* Cover the entire area */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent repeating */
-    min-height: 35vw; /* Set a height or use padding to control size */
+    min-height: 40vw; /* Set a height or use padding to control size */
     display: flex; /* Optional: to align content */
     justify-content: center; /* Optional: horizontal center content */
     color: #fff; /* Optional: text color for better visibility */
